@@ -29,6 +29,7 @@ public class BaseClass {
 		driver.get(url);
 		Thread.sleep(2000);
 		driver.navigate().refresh();
+		System.out.println("refreshed");
 	}
 	
 	public void flagClose(WebElement flag) {
